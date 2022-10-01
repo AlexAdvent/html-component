@@ -1,2 +1,2 @@
-#This is a clone of Yahoo login page
-<img src="Login-Page\Assets\Asset.png"/>
+# """This is a clone of Yahoo login page"""
+![Yahoo login...](./Assets/Asset.png)
