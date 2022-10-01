@@ -1,3 +1,3 @@
 ## Themohitbindal
 
-![Themohitbindal loading](./asset/Themohitbindal.html.png)
+![Themohitbindal loading](./assets/Themohitbindal.html.png)
