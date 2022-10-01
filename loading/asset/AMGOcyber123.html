@@ -1,0 +1,104 @@
+<html>
+
+<head>
+    <title>Amazing Loading 1</title>
+
+    <head>
+
+    <body>
+        <!-- TriForce Spinner-->
+        <div class="triforce-container">
+            <div class="triforce"></div>
+        </div>
+        <style>
+            /* GRID STYLING */
+
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                min-height: 100vh;
+                background-color: #1d2630;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                align-items: flex-start;
+            }
+
+            /* TRIFORCE LOADER  github username : AMGOcyber123 */
+            .triforce-container {
+                width: 100px;
+                height: 100px;
+                position: relative;
+                margin: 120px auto;
+            }
+
+            .triforce,
+            .triforce::before,
+            .triforce::after {
+                width: 0;
+                height: 0;
+                border-left: 25px solid transparent;
+                border-right: 25px solid transparent;
+                border-bottom: 50px solid #fb5b53;
+                position: relative;
+                -webkit-animation: 3s triforce linear infinite 2s both;
+                animation: 3s triforce linear infinite 2s both;
+                top: 50px;
+            }
+
+            .triforce::before,
+            .triforce::after {
+                content: "";
+                position: absolute;
+            }
+
+            .triforce::before {
+                left: 25px;
+                top: 0;
+                -webkit-animation-delay: 1s;
+                animation-delay: 1s;
+            }
+
+            .triforce::after {
+                top: -50px;
+                -webkit-animation-delay: 0s;
+                animation-delay: 0s;
+            }
+
+            .ml-loader {
+                position: relative;
+                width: 70px;
+                height: 70px;
+            }
+
+            .ml-loader div {
+                -webkit-transform-origin: 32px 32px;
+                -ms-transform-origin: 32px 32px;
+                transform-origin: 32px 32px;
+                -webkit-animation: 1.2s opaque ease-in-out infinite both;
+                animation: 1.2s opaque ease-in-out infinite both;
+            }
+
+            @keyframes triforce {
+                0% {
+                    border-bottom-color: #fb5b53;
+                }
+
+                40% {
+                    border-bottom-color: rgba(206, 181, 2, 0);
+                }
+
+                80% {
+                    border-bottom-color: #91daffa5;
+                }
+
+                100% {
+                    border-bottom-color: #91daffa5;
+                }
+            }
+        </style>
+    </body>
+
+</html>
