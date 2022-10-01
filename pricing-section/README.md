@@ -1,3 +1,3 @@
 ## Themohitbindal
 
-![Themohitbindal loading](./assets/RajpurohitVijesh.png)
+![RajpurohitVijesh pricing](./assets/RajpurohitVijesh.png)
