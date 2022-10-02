@@ -1,77 +1,491 @@
 <!DODTYPE html>
-<html lang="en">
-<head>
-    <title>Yahoo Registration Login Page</title>
-</head>
-<link rel="stylesheet" href="style.css">
-<body>
-    <img src="yahoocrop.jpg" alt="err101">
-    <div class="login">
-        Log in to yahoo!
-        <br>
-        <br>
-        <input type="text" name="Username" placeholder="Username" class="loginbox"> <br>
-        <input type="text" name="Password" placeholder="Password" class="loginbox"> <br>
-        <br>
-        <a href="main.html">
-            <input type="button" value="Log In" class="login_button" >
-        </a>
+    <html lang="en">
 
-    </div>
+    <head>
+        <title>Yahoo Registration Login Page</title>
+    </head>
+    <link rel="stylesheet" href="style.css">
 
+    <body>
+        <img src="yahoocrop.jpg" alt="err101">
+        <div class="login">
+            Log in to yahoo!
+            <br>
+            <br>
+            <input type="text" name="Username" placeholder="Username" class="loginbox"> <br>
+            <input type="text" name="Password" placeholder="Password" class="loginbox"> <br>
+            <br>
+            <a href="main.html">
+                <input type="button" value="Log In" class="login_button">
+            </a>
 
-</body>
-<style>
-    body{
-        text-align: center;
-        font-size: 24px;
-        font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
-        color:white;
-        background-color: #5F2AD2 ;
-    }
-    img{
-        float: center;
-        height: 20%;
-    }
-    .login
-    {
-        padding-top:10px;
-        background-color: #421d91;
-        margin:0% 35% 10% 35%;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
-    }
-    .loginbox
-    {
-        width: max-content;
-        color:black;
-        margin:2%;
-        border-radius: 8px;
-        width: 332px;
-        height:30px;
-        font-size:20px;
-        background-color: #9299a536;
-        padding:15px;
-        border-style: none;
-    }
-    .login_button
-    {
-        background-color: #6e37e4;
-        color:white;
-        font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
-        border-radius: 6px;
-        border-style: none;
-        font-size: 20px;
-        line-height: 48px;
-        padding: 0 16px;
-        width: 332px;
-        margin-bottom:10%;
-    }
-    .login_button:hover
-    {
-        background-color: #320a88;
-    }
+        </div>
 
 
-</style>
-</html>
+    </body>
+    <style>
+        body {
+            text-align: center;
+            font-size: 24px;
+            font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+            color: white;
+            background-color: #5F2AD2;
+        }
+
+        img {
+            float: center;
+            height: 20%;
+        }
+
+        .login {
+            padding-top: 10px;
+            background-color: #421d91;
+            /* margin: 0% 35% 10% 35%; */
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+        }
+
+        .loginbox {
+            width: max-content;
+            color: black;
+            margin: 2%;
+            border-radius: 8px;
+            width: 332px; 
+            height: 30px;
+            font-size: 20px;
+            background-color: #9299a536;
+            padding: 15px;
+            border-style: none;
+        }
+
+        .login_button {
+            background-color: #6e37e4;
+            color: white;
+            font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+            border-radius: 6px;
+            border-style: none;
+            font-size: 20px;
+            line-height: 48px;
+            padding: 0 16px;
+            width: 332px;
+            margin-bottom: 10%;
+        }
+
+        .login_button:hover {
+            background-color: #320a88;
+        }
+        @media only screen and (max-width: 1400px) 
+        {
+            body {
+                text-align: center;
+                font-size: 24px;
+                font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+                color: white;
+                background-color: #5F2AD2;
+            }
+
+            img {
+                float: center;
+                height: 20%;
+            }
+
+            .login 
+            {
+                padding-top: 10px;
+                background-color: #421d91;
+                margin: 0px 450px;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+            }
+
+            .loginbox {
+                width: max-content;
+                color: black;
+                border-radius: 8px;
+                font-size: 0px 20px;
+                background-color: #9299a536;
+                padding: 0px 60px;
+                border-style: none;
+            }
+
+            .login_button {
+                background-color: #6e37e4;
+                color: white;
+                font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+                border-radius: 6px;
+                border-style: none;
+                font-size: 20px;
+                line-height: 48px;
+                padding: 0px 16px;
+                width: 332px;
+                margin-bottom: 10%;
+            }
+
+            .login_button:hover {
+                background-color: #320a88;
+            }
+        }
+        @media only screen and (max-width: 1300px) 
+        {
+            body {
+                text-align: center;
+                font-size: 24px;
+                font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+                color: white;
+                background-color: #5F2AD2;
+            }
+
+            img {
+                float: center;
+                height: 20%;
+            }
+
+            .login 
+            {
+                padding-top: 10px;
+                background-color: #421d91;
+                margin: 0px 400px;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+            }
+
+            .loginbox {
+                width: max-content;
+                color: black;
+                border-radius: 8px;
+                font-size: 0px 20px;
+                background-color: #9299a536;
+                padding: 0px 60px;
+                border-style: none;
+            }
+
+            .login_button {
+                background-color: #6e37e4;
+                color: white;
+                font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+                border-radius: 6px;
+                border-style: none;
+                font-size: 20px;
+                line-height: 48px;
+                padding: 0px 16px;
+                width: 332px;
+                margin-bottom: 10%;
+            }
+
+            .login_button:hover {
+                background-color: #320a88;
+            }
+        }
+        @media only screen and (max-width: 1200px) 
+        {
+            body {
+                text-align: center;
+                font-size: 24px;
+                font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+                color: white;
+                background-color: #5F2AD2;
+            }
+
+            img {
+                float: center;
+                height: 20%;
+
+            }
+
+            .login 
+            {
+                padding-top: 10px;
+                background-color: #421d91;
+                margin: 0px 300px;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+            }
+
+            .loginbox {
+                width: max-content;
+                color: black;
+                border-radius: 8px;
+                font-size: 0px 20px;
+                background-color: #9299a536;
+                padding: 0px 60px;
+                border-style: none;
+            }
+
+            .login_button {
+                background-color: #6e37e4;
+                color: white;
+                font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+                border-radius: 6px;
+                border-style: none;
+                font-size: 20px;
+                line-height: 48px;
+                padding: 0px 16px;
+                width: 332px;
+                margin-bottom: 10%;
+            }
+
+            .login_button:hover {
+                background-color: #320a88;
+            }
+        }
+        @media only screen and (max-width: 1000px) 
+        {
+            body {
+                text-align: center;
+                font-size: 24px;
+                font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+                color: white;
+                background-color: #5F2AD2;
+            }
+
+            img {
+                float: center;
+                height: 15%;
+
+            }
+
+            .login 
+            {
+                padding-top: 10px;
+                background-color: #421d91;
+                margin: 0px 250px;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+            }
+
+            .loginbox {
+                width: 275px;
+                color: black;
+                border-radius: 8px;
+                font-size: 0px 20px;
+                background-color: #9299a536;
+                padding: 0px 60px;
+                border-style: none;
+            }
+
+            .login_button {
+                background-color: #6e37e4;
+                color: white;
+                font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+                border-radius: 6px;
+                border-style: none;
+                font-size: 20px;
+                line-height: 48px;
+                padding: 0px 16px;
+                width: 275px;
+                margin-bottom: 10%;
+            }
+
+            .login_button:hover {
+                background-color: #320a88;
+            }
+        }
+
+        @media only screen and (max-width: 800px) 
+        {
+            body {
+                text-align: center;
+                font-size: 24px;
+                font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+                color: white;
+                background-color: #5F2AD2;
+            }
+
+            img {
+                float: center;
+                height: 15%;
+            }
+
+            .login 
+            {
+                padding-top: 10px;
+                background-color: #421d91;
+                margin: 0px 200px;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+            }
+
+            .loginbox {
+                width: 220px;
+                color: black;
+                border-radius: 8px;
+                font-size: 0px 20px;
+                background-color: #9299a536;
+                padding: 0px 60px;
+                border-style: none;
+            }
+
+            .login_button {
+                background-color: #6e37e4;
+                color: white;
+                font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+                border-radius: 6px;
+                border-style: none;
+                font-size: 20px;
+                line-height: 48px;
+                padding: 0px 16px;
+                width: 220px;
+                margin-bottom: 10%;
+            }
+
+            .login_button:hover {
+                background-color: #320a88;
+            }
+        }
+        @media only screen and (max-width: 600px) 
+        {
+            body {
+                text-align: center;
+                font-size: 24px;
+                font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+                color: white;
+                background-color: #5F2AD2;
+            }
+
+            img {
+                float: center;
+                height: 10%;
+
+            }
+
+            .login 
+            {
+                padding-top: 10px;
+                background-color: #421d91;
+                margin: 0px 100px;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+            }
+
+            .loginbox {
+                width: max-content;
+                color: black;
+                border-radius: 8px;
+                font-size: 0px 20px;
+                background-color: #9299a536;
+                padding: 0px 60px;
+                border-style: none;
+            }
+
+            .login_button {
+                background-color: #6e37e4;
+                color: white;
+                font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+                border-radius: 6px;
+                border-style: none;
+                font-size: 20px;
+                line-height: 48px;
+                padding: 0px 16px;
+                width: 332px;
+                margin-bottom: 10%;
+            }
+
+            .login_button:hover {
+                background-color: #320a88;
+            }
+        }
+        @media only screen and (max-width: 400px) 
+        {
+            body {
+                text-align: center;
+                font-size: 24px;
+                font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+                color: white;
+                background-color: #5F2AD2;
+            }
+
+            img {
+                float: center;
+                height: 10%;
+            }
+
+            .login 
+            {
+                padding-top: 10px;
+                background-color: #421d91;
+                margin: 0px 50px;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+            }
+
+            .loginbox {
+                width: max-content;
+                color: black;
+                border-radius: 8px;
+                font-size: 0px 10px;
+                background-color: #9299a536;
+                padding: 0px 30px;
+                border-style: none;
+            }
+
+            .login_button {
+                background-color: #6e37e4;
+                color: white;
+                font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+                border-radius: 6px;
+                border-style: none;
+                font-size: 20px;
+                line-height: 48px;
+                padding: 0px 10px;
+                width: 270px;   
+                margin-bottom: 10%;
+            }
+
+            .login_button:hover {
+                background-color: #320a88;
+            }
+        }
+        @media only screen and (max-width: 350px) 
+        {
+            body {
+                text-align: center;
+                font-size: 24px;
+                font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+                color: white;
+                background-color: #5F2AD2;
+            }
+
+            img {
+                float: center;
+                height: 10%;
+            }
+
+            .login 
+            {
+                padding-top: 10px;
+                background-color: #421d91;
+                margin: 0px 50px;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+            }
+
+            .loginbox {
+                width: max-content;
+                color: black;
+                border-radius: 8px;
+                font-size: 0px 10px;
+                background-color: #9299a536;
+                padding: 0px 30px;
+                border-style: none;
+            }
+
+            .login_button {
+                background-color: #6e37e4;
+                color: white;
+                font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+                border-radius: 6px;
+                border-style: none;
+                font-size: 20px;
+                line-height: 48px;
+                padding: 0px 10px;
+                width: 270px;   
+                margin-bottom: 10%;
+            }
+
+            .login_button:hover {
+                background-color: #320a88;
+            }
+        }
+    </style>
+
+    </html>
